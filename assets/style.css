@@ -5,13 +5,33 @@
 }
 
 /* header styles */
+header {
+  display: flex;
+}
+
+/* subtitle styles here */
+.subtitle {
+  display: flex;
+  justify-content: end;
+  padding: 35px 25px 10px 0px;
+}
 
 /* nav styles */
 
-/* below nav section styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
 
-/* main styles */
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 35%;
+  padding: 10px;
+}
 
-/* aside styles */
-aside {
+nav ul li {
+  display: flex;
+  display: inline;
 }
