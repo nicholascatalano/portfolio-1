@@ -4,9 +4,10 @@
   border: 1px solid red;
 }
 
-/* header styles */
+/* header styles here*/
 header {
   background-color: #3f3f4e;
+  height: 100%;
 }
 
 h1 {
@@ -35,7 +36,7 @@ h1 {
   margin-right: 30px;
 }
 
-/* nav styles */
+/* nav styles here */
 
 nav {
   display: flex;
@@ -56,16 +57,27 @@ nav ul li {
   color: aqua;
 }
 
-/* main/div styles */
+ul li a {
+  text-decoration: none;
+  color: aqua;
+}
+
+/* main/div styles here */
+
+main {
+  height: 100%;
+}
 
 div {
   display: flex;
-  position: relative;
+  flex-wrap: wrap;
+  height: 100%;
 }
 
 /* aside styles here */
 aside {
   min-width: 200px;
+  max-height: 500px;
   display: flex;
   flex-direction: column;
   font-size: 200%;
@@ -78,19 +90,46 @@ aside {
 /* img & card styles here */
 
 .large-img {
-  width: 50%;
-}
-
-.card {
-  width: 75%;
+  max-width: 65%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border: 6px solid aqua;
 }
 
-/* p style here */
+.placeholders {
+  max-width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#smallimgs {
+  border: 6px solid aqua;
+  margin: 5px;
+}
+
+/* p styles */
 
 #pAboutMe {
-  width: 50%;
+  width: 65%;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* contact styles here */
+
+.contactMe {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contactMe ul li {
+  display: flex;
+  display: inline;
+  align-items: center;
 }
