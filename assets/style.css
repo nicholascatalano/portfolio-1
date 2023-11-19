@@ -47,6 +47,7 @@ nav {
 nav ul {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   width: 35%;
   padding: 30px 20px;
 }
@@ -55,11 +56,14 @@ nav ul li {
   display: flex;
   display: inline;
   color: aqua;
+  border-bottom: 4px solid aqua;
+  padding-bottom: 3px;
 }
 
 ul li a {
   text-decoration: none;
   color: aqua;
+  font-weight: bold;
 }
 
 /* main/div styles here */
@@ -125,10 +129,24 @@ aside {
   width: 65%;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactMe ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
 }
 
 .contactMe ul li {
   display: flex;
   display: inline;
-  align-items: center;
+}
+
+.contactMe ul li a {
+  display: flex;
+  border-bottom: 4px solid aqua;
+  padding-bottom: 3px;
 }
