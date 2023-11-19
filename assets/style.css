@@ -68,14 +68,8 @@ ul li a {
 
 /* main/div styles here */
 
-main {
-  height: 100%;
-}
-
 div {
   display: flex;
-  flex-wrap: wrap;
-  height: 100%;
 }
 
 /* aside styles here */
@@ -92,8 +86,17 @@ aside {
 
 /* img & card styles here */
 
+div .right-side {
+  height: 100%;
+  width: 75%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .large-img {
-  max-width: 65%;
+  width: 71%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
@@ -101,16 +104,15 @@ aside {
   border: 6px solid aqua;
 }
 
-.placeholders {
-  max-width: 65%;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+/* .large-img::before {
+  position: absolute;
+  background-color: azure;
+  opacity: 10%;
+} */
 
 #smallimgs {
+  width: 35%;
+  height: 25%;
   border: 6px solid aqua;
   margin: 5px;
 }
@@ -118,7 +120,7 @@ aside {
 /* p styles */
 
 #pAboutMe {
-  width: 65%;
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -126,7 +128,7 @@ aside {
 /* contact styles here */
 
 .contactMe {
-  width: 65%;
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
