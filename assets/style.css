@@ -182,7 +182,7 @@ div .right-side {
 
 /* media queries here */
 
-@media screen and(max-width: 480px) {
+@media screen and(min-width: 480px) {
   aside {
     font-size: 50%;
   }
