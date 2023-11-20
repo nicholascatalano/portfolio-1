@@ -45,9 +45,9 @@ nav {
 
 nav ul {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
-  width: 45%;
+  width: 60%;
   padding: 30px 20px;
 }
 
@@ -182,8 +182,41 @@ div .right-side {
 
 /* media queries here */
 
-@media screen and(min-width: 480px) {
-  aside {
+@media screen and (max-width: 480px) {
+  h1,
+  nav,
+  aside,
+  .subtitle {
+    font-size: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  nav ul {
     font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #pAboutMe {
+    font-size: 70%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contactMe {
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #smallimgs {
+    width: 60%;
   }
 }
