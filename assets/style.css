@@ -97,7 +97,7 @@ div .right-side {
 }
 
 .large-img {
-  width: 71%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
@@ -105,11 +105,12 @@ div .right-side {
   border: 6px solid aqua;
 }
 
-/* .large-img::before {
-  position: absolute;
-  background-color: azure;
-  opacity: 10%;
-} */
+.imglink {
+  text-align: center;
+  width: 71%;
+
+}
+
 
 #smallimgs {
   width: 35%;
@@ -154,6 +155,14 @@ div .right-side {
   padding-bottom: 3px;
 }
 
+/* media queries here */
+
+/* @media screen and(max-width: 390px) {
+  aside {
+    width: 50%;
+  }
+} */
+
 /* title overlay styles here */
 
 /* #title1 {
@@ -180,4 +189,3 @@ div .right-side {
 #title5 {
   position: absolute;
 } */
-
