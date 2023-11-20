@@ -251,6 +251,8 @@ div .right-side {
   }
 }
 
+/* media queries for overlayed titles */
+
 @media screen and (max-width: 768px) {
   #title1,
   #title2,
