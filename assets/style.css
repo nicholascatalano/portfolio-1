@@ -155,10 +155,12 @@ div .right-side {
 
 /* title overlay styles here */
 
-/* #title1 {
+#title1 {
   position: absolute;
+  width: 15%;
   bottom: 66%;
-  right: 72.5%;
+  right: 70.5%;
+  justify-content: end;
   color: white;
   font-weight: bold;
   background-color: aqua;
@@ -166,23 +168,51 @@ div .right-side {
 
 #title2 {
   position: absolute;
+  width: 15%;
+  bottom: 33%;
+  right: 70.5%;
+  color: white;
+  font-weight: bold;
+  justify-content: end;
+  background-color: aqua;
 }
 
 #title3 {
   position: absolute;
+  width: 15%;
+  bottom: 33%;
+  right: 34.5%;
+  color: white;
+  font-weight: bold;
+  justify-content: end;
+  background-color: aqua;
 }
 
 #title4 {
   position: absolute;
+  width: 15%;
+  bottom: 5%;
+  right: 70.5%;
+  color: white;
+  font-weight: bold;
+  justify-content: end;
+  background-color: aqua;
 }
 
 #title5 {
   position: absolute;
-} */
+  width: 15%;
+  bottom: 5%;
+  right: 34.5%;
+  color: white;
+  font-weight: bold;
+  justify-content: end;
+  background-color: aqua;
+}
 
 /* media queries here */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   h1,
   nav,
   aside,
@@ -191,32 +221,76 @@ div .right-side {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   h1 {
     align-items: center;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   nav ul {
     font-size: 50%;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   #pAboutMe {
     font-size: 70%;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .contactMe {
     font-size: 50%;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   #smallimgs {
     width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #title1,
+  #title2,
+  #title3,
+  #title4,
+  #title5 {
+    font-size: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #title1 {
+    bottom: 83%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #title2 {
+    bottom: 63%;
+    right: 65%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #title3 {
+    bottom: 44%;
+    right: 65%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #title4 {
+    bottom: 24%;
+    right: 65%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #title5 {
+    bottom: 5%;
+    right: 65%;
   }
 }
