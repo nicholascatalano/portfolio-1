@@ -93,6 +93,7 @@ div .right-side {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  position: relative;
 }
 
 .large-img {
@@ -152,3 +153,31 @@ div .right-side {
   border-bottom: 4px solid aqua;
   padding-bottom: 3px;
 }
+
+/* title overlay styles here */
+
+/* #title1 {
+  position: absolute;
+  bottom: 66%;
+  right: 72.5%;
+  color: white;
+  font-weight: bold;
+  background-color: aqua;
+}
+
+#title2 {
+  position: absolute;
+}
+
+#title3 {
+  position: absolute;
+}
+
+#title4 {
+  position: absolute;
+}
+
+#title5 {
+  position: absolute;
+} */
+
